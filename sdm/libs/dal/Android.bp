@@ -11,6 +11,8 @@ cc_library_shared {
     cflags: [
         "-fno-operator-names",
         "-Wno-unused-parameter",
+        "-Wno-implicit-fallthrough",
+        "-Wno-format",
         "-DLOG_TAG=\"SDM\"",
     ],
     shared_libs: [

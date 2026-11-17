@@ -1,3 +1,11 @@
+soong_namespace {
+    imports: [
+        "vendor/qcom/opensource/display/sm8750",
+        "vendor/qcom/opensource/display-commonsys-intf/sm8750",
+        "vendor/qcom/opensource/display-intf/sm8750"
+    ],
+}
+
 cc_library_headers {
     name: "display_debug_headers",
     vendor: true,
